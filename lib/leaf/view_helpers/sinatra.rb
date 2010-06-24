@@ -13,7 +13,7 @@ Leaf::ViewHelpers::LinkRenderer.class_eval do
         url.gsub(/page=[0-9]+/, "page=#{page}")
       else
         (url =~ /\?/) ? url + "&page=#{page}" : url + "?page=#{page}"
-      end      
+      end
     end
   end
 end

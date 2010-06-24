@@ -5,6 +5,11 @@
 # Leaf::Collection.
 #
 # Happy paginating!
-module Leaf
-  require 'leaf/view_helpers/sinatra'
+module Leaf 
+  require 'leaf/version'
+  
+  # Load the helpers for sinatra
+  if defined?(Sinatra)
+    require 'leaf/view_helpers/sinatra'
+  end
 end

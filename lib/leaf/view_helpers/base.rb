@@ -1,5 +1,11 @@
+require 'i18n'
 require 'leaf/core_ext'
 require 'leaf/view_helpers'
+
+# REPLACE WITH REAL CODE :)
+['sv', 'en'].each do |locale|
+  I18n.load_path << "locales/#{locale}.yml"
+end
 
 module Leaf
   module ViewHelpers
@@ -104,16 +110,18 @@ module Leaf
         
         if collection.total_pages < 2
           case collection.size
-          when 0; "No #{plural_name} found"
-          when 1; "Displaying #{b}1#{eb} #{entry_name}"
-          else;   "Displaying #{b}all #{collection.size}#{eb} #{plural_name}"
+          when 0; I18n::t('leaf.page_entries_info.one_page.nothing', :plural_name => plural_name)
+          when 1; I18n::t('leaf.page_entries_info.one_page.one', :b => b, :eb => eb, :entry_name => entry_name)
+          else;   I18n::t('leaf.page_entries_info.one_page.many', :b => b, :collection_size => collection.size, :eb => eb, :plural_name => plural_name) 
           end
         else
-          %{Displaying #{plural_name} #{b}%d#{sp}-#{sp}%d#{eb} of #{b}%d#{eb} in total} % [
-            collection.offset + 1,
-            collection.offset + collection.length,
-            collection.total_entries
-          ]
+          I18n::t('leaf.page_entries_info.default', 
+            :plural_name => plural_name,
+            :b => b, :sp => sp, :eb => eb,
+            :from => (collection.offset + 1),
+            :to => (collection.offset + collection.length),
+            :total_entries => collection.total_entries
+          )
         end
       end
     end

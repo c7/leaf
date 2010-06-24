@@ -1,0 +1,11 @@
+# Swedish
+sv:
+  leaf:
+    next_label: "Nästa &#8594;"
+    previous_label: "&#8592; Föregående"
+    page_entries_info:
+      one_page:
+        nothing: "Hittade inga %{plural_name}"
+        one: "Visar %{b}1%{eb} %{entry_name}"
+        many: "Visar %{b}alla %{collection_size}%{eb} %{plural_name}"
+      default: "Visar %{plural_name} %{b}%{from}%{sp}-%{sp}%{to}%{eb} av totalt %{b}%{total_entries}%{eb}"

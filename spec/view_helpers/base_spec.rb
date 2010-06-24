@@ -30,16 +30,21 @@ describe Leaf::ViewHelpers::Base do
     def info(params, options = {})
       options[:html] ||= false unless options.key?(:html) and options[:html].nil?
       collection = Hash === params ? @array.paginate(params) : params
+      
+      I18n.locale = (options.key?(:locale)) ? options[:locale] : :en
       page_entries_info collection, options
     end
-
-    it "should display middle results and total count" do
-      info(:page => 2, :per_page => 5).should == "Displaying strings 6 - 10 of 26 in total"
+    
+    it "should display middle results and total count in Swedish" do
+      info({:page => 2, :per_page => 5}, 
+            :locale => :sv, :plural_name => 'strängarna'
+          ).should == "Visar strängarna 6 - 10 av totalt 26"
     end
 
-    it "should output HTML by default" do
-      info({ :page => 2, :per_page => 5 }, :html => nil).should ==
-        "Displaying strings <b>6&nbsp;-&nbsp;10</b> of <b>26</b> in total"
+    it "should output HTML by default in Swedish" do
+      info({ :page => 2, :per_page => 5 }, 
+             :html => nil, :locale => :sv, :plural_name => 'strängarna'
+          ).should == "Visar strängarna <b>6&nbsp;-&nbsp;10</b> av totalt <b>26</b>"
     end
 
     it "should display shortened end results" do

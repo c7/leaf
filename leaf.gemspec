@@ -19,8 +19,9 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ['README.rdoc', 'MIT-LICENSE']
   
   s.files       = Dir.glob("lib/**/*") + 
-                  %w(MIT-LICENSE Rakefile README.rdoc)
+                  %w(MIT-LICENSE Rakefile README.rdoc locales.yml)
   
   s.rubyforge_project = "leaf"
   s.add_dependency('rack', '>= 1.2.0')
+  s.add_dependency('i18n', '>= 0.4.0')
 end
