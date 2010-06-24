@@ -27,7 +27,7 @@ module Leaf
       # and +count+ calls.
       def paginate(*args, &block)
         options = args.pop
-        page, per_page, total_entries = wp_parse_options(options)
+        page, per_page, total_entries = leaf_parse_options(options)
 
         Leaf::Collection.create(page, per_page, total_entries) do |pager|
           query_options = options.except :page, :per_page, :total_entries
@@ -62,7 +62,7 @@ module Leaf
       
       protected
         
-        def wp_parse_options(options)
+        def leaf_parse_options(options)
           raise ArgumentError, 'parameter hash expected' unless Hash === options
           raise ArgumentError, ':page parameter required' unless options.key? :page
           
