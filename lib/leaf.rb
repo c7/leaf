@@ -6,5 +6,5 @@
 #
 # Happy paginating!
 module Leaf
-  
+  require 'leaf/view_helpers/sinatra'
 end
