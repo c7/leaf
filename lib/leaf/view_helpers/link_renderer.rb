@@ -1,4 +1,3 @@
-require 'cgi'
 require 'leaf/core_ext'
 require 'leaf/view_helpers/link_renderer_base'
 
@@ -98,7 +97,7 @@ module Leaf
       def tag(name, value, attributes = {})
         string_attributes = attributes.inject('') do |attrs, pair|
           unless pair.last.nil?
-            attrs << %( #{pair.first}="#{CGI::escapeHTML(pair.last.to_s)}")
+            attrs << %( #{pair.first}="#{Rack::Utils.escape_html(pair.last.to_s)}")
           end
           attrs
         end
