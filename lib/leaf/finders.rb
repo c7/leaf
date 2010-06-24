@@ -1,6 +1,6 @@
 require 'leaf/core_ext'
 
-module Lead
+module Leaf
   # Database logic for different ORMs
   #
   # See Leaf::Finders::Base
