@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="stylesheets/leaf.css" />
   </head>
   <body>
-    <a href="http://github.com/c7/leaf"><img style="position: absolute; top: 0; right: 0; border: 0;" src="images/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
+    <a href="http://github.com/c7/leaf">
+      <img id="ribbon" src="images/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" />
+    </a>
     <div class="container_12">
       <div class="grid_12">
         <a href="http://github.com/c7/leaf"><img id="logotype" src="images/leaf.png"></a>
@@ -17,7 +19,7 @@
       <!-- end .grid_12 -->
       <div class="clear"></div>
       <div class="grid_8 push_2">
-        <div id="about">
+        <div class="section" id="about">
           A really simple pagination library, heavily based on the agnostic 
           branch of <a href="http://github.com/mislav/will_paginate/tree/agnostic">will_paginate</a>.
         </div>
@@ -25,7 +27,7 @@
       <!-- end .grid_8 -->
       <div class="clear"></div>
       <div class="grid_8 push_2">
-        <div id="installation">
+        <div class="section" id="installation">
           <h2>Installation</h2>
           <code>
             gem install leaf

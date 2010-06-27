@@ -3,12 +3,16 @@
   margin-left: 173px;
 }
 
+#ribbon {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+}
+
 #about {
   font-size: 1.9em;
   color: #83804C;
-  
-  margin-left: 10px;
-  margin-right: 20px;
   padding: 1em;
   margin-top: 50px;
   background: #EFFFCD;
@@ -23,19 +27,19 @@
 
 #about a { color: #625B41; }
 
-#installation {
+.section {
   color: #625B41;
   margin-left: 10px;
   margin-right: 20px;
   margin-top: 20px;
 }
 
-#installation h2 {
+.section h2 {
   font-size: 2em;
   margin-bottom: 0.2em;
 }
 
-#installation code {
+.section code {
   display: block;
   padding: 1em;
   color: #EFFFCD;
@@ -47,4 +51,3 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
-
