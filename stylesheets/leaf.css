@@ -1,11 +1,14 @@
 #logotype {
-  margin-right: 170px;
-  margin-left: 170px;
+  margin-right: 168px;
+  margin-left: 173px;
 }
 
 #about {
+  font-size: 1.9em;
+  color: #83804C;
+  
   margin-left: 10px;
-  margin-right: 30px;
+  margin-right: 20px;
   padding: 1em;
   margin-top: 50px;
   background: #EFFFCD;
@@ -17,3 +20,31 @@
   -moz-border-radius: 12px;
   border-radius: 12px;
 }
+
+#about a { color: #625B41; }
+
+#installation {
+  color: #625B41;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#installation h2 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+
+#installation code {
+  display: block;
+  padding: 1em;
+  color: #EFFFCD;
+  background: #625B41;
+  font-size: 1.2em;
+  font-weight: bold;
+
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
