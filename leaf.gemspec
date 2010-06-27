@@ -18,8 +18,8 @@ Gem::Specification.new do |s|
   s.rdoc_options = ['--main', 'README.rdoc', '--charset=UTF-8']
   s.extra_rdoc_files = ['README.rdoc', 'MIT-LICENSE']
   
-  s.files       = Dir.glob("lib/**/*") + 
-                  %w(MIT-LICENSE Rakefile README.rdoc locales.yml)
+  s.files       = Dir.glob("{lib,locales}/**/*") + 
+                  %w(MIT-LICENSE Rakefile README.rdoc)
   
   s.rubyforge_project = "leaf"
   s.add_dependency('rack', '>= 1.2.0')
