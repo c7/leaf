@@ -8,4 +8,4 @@ sv:
         nothing: "Hittade inga %{plural_name}"
         one: "Visar %{b}1%{eb} %{entry_name}"
         many: "Visar %{b}alla %{collection_size}%{eb} %{plural_name}"
-      default: "Visar %{plural_name} %{b}%{from}%{sp}-%{sp}%{to}%{eb} av totalt %{b}%{total_entries}%{eb}"
+      default: "Visar %{plural_name} %{b}%{from_number}%{sp}-%{sp}%{to_number}%{eb} av totalt %{b}%{total_entries}%{eb}"

@@ -118,8 +118,8 @@ module Leaf
           I18n::t('leaf.page_entries_info.default', 
             :plural_name => plural_name,
             :b => b, :sp => sp, :eb => eb,
-            :from => (collection.offset + 1),
-            :to => (collection.offset + collection.length),
+            :from_number => (collection.offset + 1),
+            :to_number => (collection.offset + collection.length),
             :total_entries => collection.total_entries
           )
         end

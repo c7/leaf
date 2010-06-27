@@ -8,4 +8,4 @@ en:
         nothing: "No %{plural_name} found"
         one: "Displaying %{b}1%{eb} %{entry_name}"
         many: "Displaying %{b}all %{collection_size}%{eb} %{plural_name}"
-      default: "Displaying %{plural_name} %{b}%{from}%{sp}-%{sp}%{to}%{eb} of %{b}%{total_entries}%{eb} in total"
+      default: "Displaying %{plural_name} %{b}%{from_number}%{sp}-%{sp}%{to_number}%{eb} of %{b}%{total_entries}%{eb} in total"
