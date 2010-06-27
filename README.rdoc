@@ -1,18 +1,18 @@
 = Leaf
 
-A _really_ simple pagination library
+A _really_ simple pagination library, heavily based on the agnostic branch of
+{will_paginate}[http://github.com/mislav/will_paginate/tree/agnostic]
 
 == Installation
-  
-The recommended way is that you get the gem
 
   gem install leaf
   
 == Example usage
 
+
+
 == Authors and credits
 
-Leaf is heavily based on the agnostic branch of 
-{will_paginate}[http://github.com/mislav/will_paginate/tree/agnostic]. 
-will_paginate was originally written by PJ Hyett, who later handed over 
-development to Mislav Marohnić. (The library was completely rewritten since then.)
+Leaf is based on {will_paginate}[http://github.com/mislav/will_paginate/] which 
+was originally written by PJ Hyett, who later handed over development to Mislav 
+Marohnić. (The library was completely rewritten since then.)
