@@ -8,6 +8,9 @@ A _really_ simple pagination library, heavily based on the agnostic branch of
 Leaf supports pagination for collections responding to +total_pages+, 
 +per_page+, +previous_page+ and +total_entries+ in Sinatra views out of the box.
 
+The view helper method +page_entries_info+ supports two languages: English and 
+Swedish via the I18n gem.
+
 == Installation
 
   gem install leaf
