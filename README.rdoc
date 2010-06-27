@@ -12,6 +12,33 @@ Leaf supports pagination for collections responding to +total_pages+,
 
   gem install leaf
 
+== Example usage
+
+  require 'rubygems'
+  require 'sinatra'
+  require 'leaf'
+
+  include Leaf::ViewHelpers::Base
+
+  # Needed to paginate any array, you’ll probably use something else.
+  require 'leaf/array'
+
+  get '/' do
+    page = (params[:page]) ? params[:page] : 1
+    array = ('a'..'z').to_a
+
+    haml :index, :locals => { 
+      :collection => array.paginate({:page => page, :per_page => 5}) 
+    }
+  end
+
+  __END__
+  @@ index
+  = leaf(collection)
+  %ul
+    - collection.each do |letter|
+      %li= letter
+
 == Authors and credits
 
 Leaf is based on {will_paginate}[http://github.com/mislav/will_paginate/] which 
