@@ -11,10 +11,10 @@ desc 'Generate RDoc documentation for the leaf gem.'
 Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('README.rdoc', 'MIT-LICENSE').
     include('lib/**/*.rb').
-    exclude('lib/will_paginate/finders/sequel.rb').
-    exclude('lib/will_paginate/view_helpers/sinatra.rb').
-    exclude('lib/will_paginate/core_ext.rb').
-    exclude('lib/will_paginate/version.rb')
+    exclude('lib/leaf/finders/sequel.rb').
+    exclude('lib/leaf/view_helpers/sinatra.rb').
+    exclude('lib/leaf/core_ext.rb').
+    exclude('lib/leaf/version.rb')
   
   rdoc.main = "README.rdoc" # page to start on
   rdoc.title = "leaf documentation"
