@@ -1,11 +1,5 @@
-require 'i18n'
 require 'leaf/core_ext'
 require 'leaf/view_helpers'
-
-# REPLACE WITH REAL CODE :)
-['sv', 'en'].each do |locale|
-  I18n.load_path << "locales/#{locale}.yml"
-end
 
 module Leaf
   module ViewHelpers
@@ -62,67 +56,6 @@ module Leaf
         # render HTML for pagination
         renderer.prepare collection, options, self
         renderer.to_html
-      end
-      
-      # Renders a helpful message with numbers of displayed vs. total entries.
-      # You can use this as a blueprint for your own, similar helpers.
-      #
-      #   <%= page_entries_info @posts %>
-      #   #-> Displaying posts 6 - 10 of 26 in total
-      #
-      # By default, the message will use the humanized class name of objects
-      # in collection: for instance, "project types" for ProjectType models.
-      # Override this to your liking with the <tt>:entry_name</tt> parameter:
-      #
-      #   <%= page_entries_info @posts, :entry_name => 'item' %>
-      #   #-> Displaying items 6 - 10 of 26 in total
-      #
-      # Entry name is entered in singular and pluralized with
-      # <tt>String#pluralize</tt> method from ActiveSupport. If it isn't
-      # loaded, specify plural with <tt>:plural_name</tt> parameter:
-      #
-      #   <%= page_entries_info @posts, :entry_name => 'item', :plural_name => 'items' %>
-      #
-      # By default, this method produces HTML output. You can trigger plain
-      # text output by passing <tt>:html => false</tt> in options.
-      def page_entries_info(collection, options = {})
-        entry_name = options[:entry_name] || (collection.empty?? 'entry' :
-                     collection.first.class.name.underscore.gsub('_', ' '))
-        
-        plural_name = if options[:plural_name]
-          options[:plural_name]
-        elsif entry_name == 'entry'
-          plural_name = 'entries'
-        elsif entry_name.respond_to? :pluralize
-          plural_name = entry_name.pluralize
-        else
-          entry_name + 's'
-        end
-
-        unless options[:html] == false
-          b  = '<b>'
-          eb = '</b>'
-          sp = '&nbsp;'
-        else
-          b  = eb = ''
-          sp = ' '
-        end
-        
-        if collection.total_pages < 2
-          case collection.size
-          when 0; I18n::t('leaf.page_entries_info.one_page.nothing', :plural_name => plural_name)
-          when 1; I18n::t('leaf.page_entries_info.one_page.one', :b => b, :eb => eb, :entry_name => entry_name)
-          else;   I18n::t('leaf.page_entries_info.one_page.many', :b => b, :collection_size => collection.size, :eb => eb, :plural_name => plural_name) 
-          end
-        else
-          I18n::t('leaf.page_entries_info.default', 
-            :plural_name => plural_name,
-            :b => b, :sp => sp, :eb => eb,
-            :from_number => (collection.offset + 1),
-            :to_number => (collection.offset + collection.length),
-            :total_entries => collection.total_entries
-          )
-        end
       end
     end
   end
