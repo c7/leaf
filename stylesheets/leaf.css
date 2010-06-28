@@ -40,18 +40,15 @@
 }
 
 .section code {
+  font-family: Monaco, Monospace;
   display: block;
   padding: 1em;
-  color: #EFFFCD;
-  background: #625B41;
-  font-size: 1.2em;
+  color: #fff;
+  background: #2f1f1e;
+  font-size: 1.1em;
   font-weight: bold;
 
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-}
-
-#example_usage code {
-  font-size: 1em;
 }

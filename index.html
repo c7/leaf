@@ -30,7 +30,7 @@ layout: default
   <div class="grid_8 push_2">
     <div class="section" id="example_usage">
       <h2>Example usage</h2>
-        <pre class="ruby">
+{% highlight ruby %}
 require 'rubygems'
 require 'sinatra'
 require 'leaf'
@@ -57,9 +57,9 @@ __END__
 @@ index
 = leaf(collection)
 %ul
-- collection.each do |letter|
-%li= letter
-        </pre>
+  - collection.each do |letter|
+    %li= letter
+{% endhighlight %}
     </div>
   </div>
   <!-- end .grid_8 -->
