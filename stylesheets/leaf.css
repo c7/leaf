@@ -51,3 +51,7 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
+#example_usage code {
+  font-size: 1em;
+}

@@ -36,6 +36,45 @@
       </div>
       <!-- end .grid_8 -->
       <div class="clear"></div>
+      <div class="grid_8 push_2">
+        <div class="section" id="example_usage">
+          <h2>Example usage</h2>
+          <pre>
+            <code class="ruby">
+require 'rubygems'
+require 'sinatra'
+require 'leaf'
+
+include Leaf::ViewHelpers::Base
+
+# Needed to paginate any array, 
+# you’ll probably use something else.
+require 'leaf/array'
+
+get '/' do
+  page = (params[:page]) ? params[:page] : 1
+  array = ('a'..'z').to_a
+
+  haml :index, :locals => { 
+    :collection => array.paginate({
+      :page => page, 
+      :per_page => 5
+    }) 
+  }
+end
+
+__END__
+@@ index
+= leaf(collection)
+%ul
+  - collection.each do |letter|
+    %li= letter
+            </code>
+          </pre>
+        </div>
+      </div>
+      <!-- end .grid_8 -->
+      <div class="clear"></div>
     <!-- end .container_12 -->
   </body>
 </html>
