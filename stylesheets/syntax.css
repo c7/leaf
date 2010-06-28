@@ -3,7 +3,7 @@
 .highlight .k { color: #c0a272; } /* Keyword */
 .highlight .o { font-weight: bold; color: #cec8aa; } /* Operator */
 .highlight .cm { color: #BC9458; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #BC9458; font-weight: italic } /* Comment.Preproc */
+.highlight .cp { color: #cec8aa; font-style: italic } /* Comment.Preproc */
 .highlight .c1 { color: #7ba95c; font-style: italic } /* Comment.Single */
 .highlight .cs { color: #7ba95c; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
