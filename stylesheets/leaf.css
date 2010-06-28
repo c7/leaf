@@ -16,10 +16,7 @@
   padding: 1em;
   margin-top: 50px;
   background: #EFFFCD;
-  
-  -moz-box-shadow: 3px 3px 5px #DCE9BE;
-  box-shadow: 3px 3px 5px #DCE9BE;
-  
+
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
@@ -46,8 +43,9 @@
   background: #2f1f1e;
   font-size: 1.2em;
   font-weight: bold;
+  color: #CEC8AA;
 
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
 }
