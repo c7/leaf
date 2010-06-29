@@ -129,9 +129,9 @@
        xlink:href="#linearGradient3592"
        id="linearGradient3894"
        x1="387.94089"
-       y1="638.46442"
+       y1="664.65076"
        x2="387.94089"
-       y2="594.40082"
+       y2="547.677"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(68.806141,-63.168206)" />
     <linearGradient
@@ -143,46 +143,6 @@
        y1="571.30219"
        x2="332.98373"
        y2="419.72" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3592"
-       id="linearGradient3909"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.55019103,-1.4963219,1.4963219,-0.55019103,-790.44233,513.59104)"
-       x1="-311.04742"
-       y1="552.36218"
-       x2="-252.09821"
-       y2="544.60742" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3592"
-       id="linearGradient3911"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4.0137233,0,0,4.0137233,-912.95713,-1835.7027)"
-       x1="300.1189"
-       y1="604.01837"
-       x2="248.64383"
-       y2="627.73633" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3592"
-       id="linearGradient3913"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.55019103,-1.4963219,1.4963219,-0.55019103,-790.44233,513.59104)"
-       x1="-311.04742"
-       y1="552.36218"
-       x2="-252.09821"
-       y2="544.60742" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3592"
-       id="linearGradient3915"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(4.0137233,0,0,4.0137233,-912.95713,-1835.7027)"
-       x1="300.1189"
-       y1="604.01837"
-       x2="248.64383"
-       y2="627.73633" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3592"
@@ -242,15 +202,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="284.91104"
+     inkscape:cx="317.28125"
      inkscape:cy="591.06058"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="752"
-     inkscape:window-x="548"
-     inkscape:window-y="210"
+     inkscape:window-x="483"
+     inkscape:window-y="234"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -275,8 +235,8 @@
        y="530.31201"
        id="text2816"
        inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-       inkscape:export-xdpi="116.93"
-       inkscape:export-ydpi="116.93"><tspan
+       inkscape:export-xdpi="174.81"
+       inkscape:export-ydpi="174.81"><tspan
          sodipodi:role="line"
          id="tspan2818"
          x="214.51462"
@@ -287,8 +247,8 @@
        transform="matrix(0.52217354,-0.15470554,0.16315576,0.49512897,200.28,140.18979)"
        style="filter:url(#filter3812)"
        inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-       inkscape:export-xdpi="116.93"
-       inkscape:export-ydpi="116.93">
+       inkscape:export-xdpi="174.81"
+       inkscape:export-ydpi="174.81">
       <g
          id="g3824"
          transform="translate(-200.51804,5.6931813)">
@@ -332,7 +292,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient3894);fill-opacity:1;stroke:#486005;font-family:Bitstream Vera Sans;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient3894);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round"
        x="215.44661"
        y="564.31262"
        id="text3884"
@@ -343,7 +303,7 @@
          id="tspan3886"
          x="215.44661"
          y="564.31262"
-         style="font-size:27.69999999999999929;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3894);fill-opacity:1;font-family:Graublau Web;-inkscape-font-specification:Graublau Web Bold;stroke:#486005;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round">Leafing through the pages</tspan></text>
+         style="font-size:27.69999999999999929;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3894);fill-opacity:1;font-family:Graublau Web;-inkscape-font-specification:Graublau Web Bold;stroke:none;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round">Leafing through the pages</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
