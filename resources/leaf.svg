@@ -21,11 +21,11 @@
     <linearGradient
        id="linearGradient3592">
       <stop
-         style="stop-color:#1b3e00;stop-opacity:1;"
+         style="stop-color:#3c6d21;stop-opacity:1;"
          offset="0"
          id="stop3594" />
       <stop
-         style="stop-color:#54bf00;stop-opacity:1;"
+         style="stop-color:#cff664;stop-opacity:1;"
          offset="1"
          id="stop3596" />
     </linearGradient>
@@ -183,6 +183,56 @@
        y1="604.01837"
        x2="248.64383"
        y2="627.73633" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3592"
+       id="linearGradient4553"
+       gradientUnits="userSpaceOnUse"
+       x1="332.98373"
+       y1="571.30219"
+       x2="332.98373"
+       y2="419.72"
+       gradientTransform="translate(19.094771,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3592"
+       id="linearGradient4555"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.55019103,-1.4963219,1.4963219,-0.55019103,-790.44233,513.59104)"
+       x1="-311.04742"
+       y1="552.36218"
+       x2="-252.09821"
+       y2="544.60742" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3592"
+       id="linearGradient4557"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.0137233,0,0,4.0137233,-912.95713,-1835.7027)"
+       x1="300.1189"
+       y1="604.01837"
+       x2="248.64383"
+       y2="627.73633" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3592"
+       id="linearGradient4559"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.55019103,-1.4963219,1.4963219,-0.55019103,-790.44233,513.59104)"
+       x1="-311.04742"
+       y1="552.36218"
+       x2="-252.09821"
+       y2="544.60742" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3592"
+       id="linearGradient4561"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.0137233,0,0,4.0137233,-912.95713,-1835.7027)"
+       x1="300.1189"
+       y1="604.01837"
+       x2="248.64383"
+       y2="627.73633" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -191,16 +241,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="505.72165"
-     inkscape:cy="522.6417"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="284.91104"
+     inkscape:cy="591.06058"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="752"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="548"
+     inkscape:window-y="210"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -218,89 +268,91 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g3896"
-       transform="translate(19.094771,0)">
-      <text
-         inkscape:export-ydpi="116.93"
-         inkscape:export-xdpi="116.93"
-         inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-         id="text2816"
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient4553);fill-opacity:1;stroke:#486005;stroke-width:0.125;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Bitstream Vera Sans"
+       x="214.51462"
+       y="530.31201"
+       id="text2816"
+       inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+       inkscape:export-xdpi="116.93"
+       inkscape:export-ydpi="116.93"><tspan
+         sodipodi:role="line"
+         id="tspan2818"
+         x="214.51462"
          y="530.31201"
-         x="195.41985"
-         style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient3907);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3907);fill-opacity:1;font-family:ChunkFive;-inkscape-font-specification:ChunkFive Bold"
-           y="530.31201"
-           x="195.41985"
-           id="tspan2818"
-           sodipodi:role="line">Leaf</tspan></text>
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient4553);fill-opacity:1;stroke:#486005;stroke-width:0.125;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:ChunkFive;-inkscape-font-specification:ChunkFive Bold">Leaf</tspan></text>
+    <g
+       id="g3706"
+       transform="matrix(0.52217354,-0.15470554,0.16315576,0.49512897,200.28,140.18979)"
+       style="filter:url(#filter3812)"
+       inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+       inkscape:export-xdpi="116.93"
+       inkscape:export-ydpi="116.93">
       <g
-         inkscape:export-ydpi="116.93"
-         inkscape:export-xdpi="116.93"
-         inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-         style="filter:url(#filter3812)"
-         transform="matrix(0.52217354,-0.15470554,0.16315576,0.49512897,183.18523,134.18979)"
-         id="g3706">
-        <g
-           transform="translate(-200.51804,5.6931813)"
-           id="g3824">
-          <path
-             sodipodi:nodetypes="czcsz"
-             id="path3684"
-             d="m 284.72431,583.74687 c 4.07766,8.68389 -7.17947,36.50803 -41.9105,54.30664 -34.73099,17.79858 -74.91566,2.75518 -136.29914,32.9011 22.25393,-41.16327 59.45195,-84.97871 107.67375,-99.14607 37.22588,-10.9368 66.45822,3.25444 70.53589,11.93833 z"
-             style="fill:url(#linearGradient3909);fill-opacity:1;stroke:none"
-             inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-             inkscape:export-xdpi="830.17096"
-             inkscape:export-ydpi="830.17096" />
-          <path
-             sodipodi:nodetypes="cczcczcczccczcczcczcc"
-             id="path3688"
-             d="m 305.85267,583.05057 c -9.19769,7.00835 -17.76136,-3.32653 -71.99861,23.38977 3.60076,5.93867 16.71189,21.55924 15.55578,22.70993 -1.15611,1.15066 -17.78878,-21.73636 -17.78878,-21.73636 l -32.02955,12.53 c 0,0 15.36618,23.97706 14.32036,24.32325 -0.89996,0.29782 -17.12515,-23.01862 -17.12515,-23.01862 l -35.79691,15.14879 c 0,0 7.32014,13.83121 6.132,14.37764 -1.18814,0.54643 -8.85969,-13.19323 -8.85969,-13.19323 0,0 -22.51809,3.98058 -48.63264,30.61873 20.62573,-25.58488 47.69459,-34.01017 47.69459,-34.01017 0,0 -0.36485,-26.24445 0.53403,-26.21398 0.89879,0.0321 2.25583,25.15512 2.25583,25.15512 l 35.31503,-14.64868 c 0,0 -3.92627,-34.06383 -2.86741,-34.30421 1.01214,-0.22959 5.99711,33.12626 5.99711,33.12626 l 32.01538,-13.06387 c 0,0 -3.19087,-31.93783 -1.97138,-31.95425 1.21945,-0.0161 4.622,30.83154 4.622,30.83154 0,0 55.815,-31.30447 72.62801,-20.06766 z"
-             style="fill:url(#linearGradient3911);fill-opacity:1;stroke:none"
-             inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-             inkscape:export-xdpi="830.17096"
-             inkscape:export-ydpi="830.17096" />
-        </g>
-        <g
-           id="g3874"
-           transform="matrix(-0.50523601,-0.34988577,-0.34988579,0.50523601,458.21985,399.21952)">
-          <path
-             inkscape:export-ydpi="830.17096"
-             inkscape:export-xdpi="830.17096"
-             inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-             style="fill:url(#linearGradient3913);fill-opacity:1;stroke:none"
-             d="m 284.72431,583.74687 c 4.07766,8.68389 -7.17947,36.50803 -41.9105,54.30664 -34.73099,17.79858 -74.91566,2.75518 -136.29914,32.9011 22.25393,-41.16327 59.45195,-84.97871 107.67375,-99.14607 37.22588,-10.9368 66.45822,3.25444 70.53589,11.93833 z"
-             id="path3876"
-             sodipodi:nodetypes="czcsz" />
-          <path
-             inkscape:export-ydpi="830.17096"
-             inkscape:export-xdpi="830.17096"
-             inkscape:export-filename="/Users/peter/Desktop/leaf.png"
-             style="fill:url(#linearGradient3915);fill-opacity:1;stroke:none"
-             d="m 305.85267,583.05057 c -9.19769,7.00835 -17.76136,-3.32653 -71.99861,23.38977 3.60076,5.93867 16.71189,21.55924 15.55578,22.70993 -1.15611,1.15066 -17.78878,-21.73636 -17.78878,-21.73636 l -32.02955,12.53 c 0,0 15.36618,23.97706 14.32036,24.32325 -0.89996,0.29782 -17.12515,-23.01862 -17.12515,-23.01862 l -35.79691,15.14879 c 0,0 7.32014,13.83121 6.132,14.37764 -1.18814,0.54643 -8.85969,-13.19323 -8.85969,-13.19323 0,0 -22.51809,3.98058 -48.63264,30.61873 20.62573,-25.58488 47.69459,-34.01017 47.69459,-34.01017 0,0 -0.36485,-26.24445 0.53403,-26.21398 0.89879,0.0321 2.25583,25.15512 2.25583,25.15512 l 35.31503,-14.64868 c 0,0 -3.92627,-34.06383 -2.86741,-34.30421 1.01214,-0.22959 5.99711,33.12626 5.99711,33.12626 l 32.01538,-13.06387 c 0,0 -3.19087,-31.93783 -1.97138,-31.95425 1.21945,-0.0161 4.622,30.83154 4.622,30.83154 0,0 55.815,-31.30447 72.62801,-20.06766 z"
-             id="path3878"
-             sodipodi:nodetypes="cczcczcczccczcczcczcc" />
-        </g>
+         id="g3824"
+         transform="translate(-200.51804,5.6931813)">
+        <path
+           inkscape:export-ydpi="830.17096"
+           inkscape:export-xdpi="830.17096"
+           inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+           style="fill:url(#linearGradient4555);fill-opacity:1;stroke:#486005;stroke-width:1.87717938;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 284.72431,583.74687 c 4.07766,8.68389 -7.17947,36.50803 -41.9105,54.30664 -34.73099,17.79858 -74.91566,2.75518 -136.29914,32.9011 22.25393,-41.16327 59.45195,-84.97871 107.67375,-99.14607 37.22588,-10.9368 66.45822,3.25444 70.53589,11.93833 z"
+           id="path3684"
+           sodipodi:nodetypes="czcsz" />
+        <path
+           inkscape:export-ydpi="830.17096"
+           inkscape:export-xdpi="830.17096"
+           inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+           style="fill:url(#linearGradient4557);fill-opacity:1;stroke:none"
+           d="m 305.85267,583.05057 c -9.19769,7.00835 -17.76136,-3.32653 -71.99861,23.38977 3.60076,5.93867 -0.20584,30.19744 -1.36195,31.34813 -1.15611,1.15066 -0.87105,-30.37456 -0.87105,-30.37456 l -32.02955,12.53 c 0,0 -1.16618,24.88098 -2.212,25.22717 -0.89996,0.29782 -0.59279,-23.92254 -0.59279,-23.92254 l -35.79691,15.14879 c 0,0 -7.36517,14.24115 -8.55331,14.78758 -1.18814,0.54643 5.82562,-13.60317 5.82562,-13.60317 0,0 -22.51809,3.98058 -48.63264,30.61873 20.62573,-25.58488 47.69459,-34.01017 47.69459,-34.01017 0,0 -14.58367,-8.90826 -13.68479,-8.87779 0.89879,0.0321 16.47465,7.81893 16.47465,7.81893 l 35.31503,-14.64868 c 0,0 -17.44776,-23.29336 -16.3889,-23.53374 1.01214,-0.22959 19.5186,22.35579 19.5186,22.35579 l 32.01538,-13.06387 c 0,0 -19.71618,-28.88952 -18.49669,-28.90594 1.21945,-0.0161 21.14731,27.78323 21.14731,27.78323 0,0 55.815,-31.30447 72.62801,-20.06766 z"
+           id="path3688"
+           sodipodi:nodetypes="cczcczcczccczcczcczcc" />
+      </g>
+      <g
+         transform="matrix(-0.50523601,-0.34988577,-0.34988579,0.50523601,458.21985,399.21952)"
+         id="g3874">
+        <path
+           sodipodi:nodetypes="czcsz"
+           id="path3876"
+           d="m 284.72431,583.74687 c 4.07766,8.68389 -7.17947,36.50803 -41.9105,54.30664 -34.73099,17.79858 -74.91566,2.75518 -136.29914,32.9011 22.25393,-41.16327 59.45195,-84.97871 107.67375,-99.14607 37.22588,-10.9368 66.45822,3.25444 70.53589,11.93833 z"
+           style="fill:url(#linearGradient4559);fill-opacity:1;stroke:#486005;stroke-width:3.05451155;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+           inkscape:export-xdpi="830.17096"
+           inkscape:export-ydpi="830.17096" />
+        <path
+           sodipodi:nodetypes="cczcczcczccczcczcczcc"
+           id="path3878"
+           d="m 302.84145,582.1097 c -5.50775,11.06607 -14.75014,-2.38566 -68.98739,24.33064 3.60076,5.93867 0.85187,26.47994 -0.30424,27.63063 -1.15611,1.15066 -1.92876,-26.65706 -1.92876,-26.65706 l -32.02955,12.53 c 0,0 -0.84755,22.97769 -1.89337,23.32388 -0.89996,0.29782 -0.91142,-22.01925 -0.91142,-22.01925 l -35.79691,15.14879 c 0,0 -4.88437,12.34167 -6.07251,12.8881 -1.18814,0.54643 3.34482,-11.70369 3.34482,-11.70369 0,0 -22.51809,3.98058 -48.63264,30.61873 20.62573,-25.58488 47.69459,-34.01017 47.69459,-34.01017 0,0 -12.67735,-9.75812 -11.77847,-9.72765 0.89879,0.0321 14.56833,8.66879 14.56833,8.66879 l 35.31503,-14.64868 c 0,0 -19.59796,-22.69378 -18.5391,-22.93416 1.01214,-0.22959 21.6688,21.75621 21.6688,21.75621 l 32.01538,-13.06387 c 0,0 -17.86456,-21.99882 -16.64507,-22.01524 1.21945,-0.0161 19.29569,20.89253 19.29569,20.89253 0,0 52.80378,-32.24534 69.61679,-21.00853 z"
+           style="fill:url(#linearGradient4561);fill-opacity:1;stroke:none"
+           inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+           inkscape:export-xdpi="830.17096"
+           inkscape:export-ydpi="830.17096" />
       </g>
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient3894);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:url(#linearGradient3894);fill-opacity:1;stroke:#486005;font-family:Bitstream Vera Sans;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round"
        x="215.44661"
        y="564.31262"
-       id="text3884"><tspan
+       id="text3884"
+       inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+       inkscape:export-xdpi="174.81"
+       inkscape:export-ydpi="174.81"><tspan
          sodipodi:role="line"
          id="tspan3886"
          x="215.44661"
          y="564.31262"
-         style="font-size:27.7;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3894);fill-opacity:1;font-family:Graublau Web;-inkscape-font-specification:Graublau Web Bold">Leafing through the pages</tspan></text>
+         style="font-size:27.69999999999999929;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:url(#linearGradient3894);fill-opacity:1;font-family:Graublau Web;-inkscape-font-specification:Graublau Web Bold;stroke:#486005;stroke-opacity:1;stroke-width:0.12500000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round">Leafing through the pages</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="639"
        y="515.36218"
-       id="text3917"><tspan
+       id="text3917"
+       inkscape:export-filename="/Users/peter/Desktop/leaf.png"
+       inkscape:export-xdpi="174.81"
+       inkscape:export-ydpi="174.81"><tspan
          sodipodi:role="line"
          id="tspan3919"
          x="639"
