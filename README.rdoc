@@ -8,6 +8,9 @@ A _really_ simple pagination library, heavily based on the agnostic branch of
 Leaf supports pagination for collections responding to +total_pages+, 
 +per_page+, +previous_page+ and +total_entries+ in Sinatra views out of the box.
 
+It currently supports two renderers: +Leaf::ViewHelpers::LinkRenderer+ 
+and +Leaf::ViewHelpers::ListRenderer+
+
 == Installation
 
   gem install leaf
@@ -20,7 +23,8 @@ Leaf supports pagination for collections responding to +total_pages+,
 
   include Leaf::ViewHelpers::Base
 
-  # Needed to paginate any array, you’ll probably use something else.
+  # Needed to paginate any array
+  # you’ll probably use something else.
   require 'leaf/array'
 
   get '/' do
@@ -28,13 +32,16 @@ Leaf supports pagination for collections responding to +total_pages+,
     array = ('a'..'z').to_a
 
     haml :index, :locals => { 
-      :collection => array.paginate({:page => page, :per_page => 5}) 
+      :collection => array.paginate({
+        :page => page, 
+        :per_page => 5
+      }) 
     }
   end
 
   __END__
   @@ index
-  = leaf(collection)
+  = leaf(collection, :renderer => Leaf::ViewHelpers::ListRenderer)
   %ul
     - collection.each do |letter|
       %li= letter
