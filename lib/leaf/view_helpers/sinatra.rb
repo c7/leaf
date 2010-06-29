@@ -1,5 +1,6 @@
 require 'leaf/view_helpers/base'
 require 'leaf/view_helpers/link_renderer'
+require 'leaf/view_helpers/list_renderer'
 
 Leaf::ViewHelpers::LinkRenderer.class_eval do
   protected
