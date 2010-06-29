@@ -8,7 +8,7 @@
 module Leaf 
   require 'leaf/version'
   
-  # Load the helpers for sinatra
+  # Load the helpers for Sinatra
   if defined?(Sinatra)
     require 'leaf/view_helpers/sinatra'
   end
