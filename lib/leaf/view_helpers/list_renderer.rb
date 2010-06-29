@@ -31,7 +31,7 @@ module Leaf
         unless page == current_page
           link(tag(:span, page), page, :rel => rel_value(page))
         else
-          tag(:em, page)
+          tag(:em, tag(:span, page))
         end
       end
     end
