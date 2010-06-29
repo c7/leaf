@@ -46,13 +46,11 @@ module Leaf
         
         # get the renderer instance
         renderer = case options[:renderer]
-        when String
-          options[:renderer].constantize.new
-        when Class
-          options[:renderer].new
-        else
-          options[:renderer]
+          when String then options[:renderer].constantize.new
+          when Class then options[:renderer].new
+          else options[:renderer]
         end
+        
         # render HTML for pagination
         renderer.prepare collection, options, self
         renderer.to_html
