@@ -21,13 +21,13 @@ describe Leaf::ViewHelpers::ListRenderer do
     @renderer.send(:to_html).should == <<-HTML
 <div class="pagination">
   <ul>
-    <li><a class="previous_page" href="/?page=2" rel="prev"><span>p</span></a></li> 
-    <li><a href="/" rel="start"><span>1</span></a></li> 
-    <li><a href="/?page=2" rel="prev"><span>2</span></a></li> 
-    <li><em>3</em></li> 
-    <li><a href="/?page=4" rel="next"><span>4</span></a></li> 
+    <li><a class="previous_page" rel="prev" href="/?page=2"><span>p</span></a></li> 
+    <li><a rel="start" href="/"><span>1</span></a></li> 
+    <li><a rel="prev" href="/?page=2"><span>2</span></a></li> 
+    <li><em><span>3</span></em></li> 
+    <li><a rel="next" href="/?page=4"><span>4</span></a></li> 
     <li><a href="/?page=5"><span>5</span></a></li> 
-    <li><a class="next_page" href="/?page=4" rel="next"><span>n</span></a></li>
+    <li><a class="next_page" rel="next" href="/?page=4"><span>n</span></a></li>
   </ul>
 </div>
     HTML
